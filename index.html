@@ -2,27 +2,37 @@
 <html>
 <head>
 <title>Border example</title>
+
+<style>
+p.one {
+    border: 3px double red;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+p.two {
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+p.three {
+    border: 4px dotted gray;
+    background-color: green;
+    padding: 10px;
+}
+</style>
+
 </head>
 
 <body>
 
 <h1>Border example</h1>
 
-    <p>Hello World!</p>
-    
-    p.one{
-        border:3px double red;
-        border-background:lightblue;
-    }
-    p.two{
-        border:2px solid blue;
-        border-radius:5px;
-        border-background:yellow;
-    }
-    p.three{
-        border:4px dotted gray;
-        border-background:green;
-    }
-    
+<p class="one">Hello World</p>
+<p class="two">Hello World</p>
+<p class="three">Hello World</p>
+
 </body>
 </html>
